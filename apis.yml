@@ -1,0 +1,121 @@
+aid: openevidence
+url: https://raw.githubusercontent.com/api-evangelist/openevidence/refs/heads/main/apis.yml
+name: OpenEvidence
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+description: OpenEvidence is a clinical decision-support search platform that uses generative AI
+  grounded in peer-reviewed medical literature to answer clinical questions for verified clinicians.
+  The product is free for U.S. licensed clinicians and is monetized through pharmaceutical
+  advertising; partnerships include the New England Journal of Medicine, JAMA, NCCN, and the
+  Cochrane Library. As of 2026 it serves more than 860,000 verified clinicians. OpenEvidence does
+  not currently expose a public self-service developer API.
+tags:
+  - Healthcare
+  - Clinical Decision Support
+  - Medical AI
+  - Generative AI
+  - Evidence-Based Medicine
+  - Search
+  - Voice
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.openevidence.com/
+  - type: SignUp
+    url: https://www.openevidence.com/signup
+  - type: Login
+    url: https://www.openevidence.com/signin
+  - type: Announcements
+    url: https://www.openevidence.com/announcements
+  - type: About
+    url: https://www.openevidence.com/about
+  - type: Careers
+    url: https://www.openevidence.com/careers
+  - type: Contact
+    url: https://www.openevidence.com/contact
+  - type: GitHubOrganization
+    url: https://github.com/openevidence
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/openevidence
+  - type: Twitter
+    url: https://twitter.com/openevidence
+  - type: Features
+    data:
+      - name: Evidence-Grounded Search
+        description: AI-powered medical search that returns answers grounded in peer-reviewed
+          medical literature with inline citations.
+      - name: Voice Mode
+        description: Hands-free voice interface allowing clinicians to ask clinical questions and
+          receive spoken, evidence-based answers across web and mobile.
+      - name: Visits
+        description: Real-time clinical intelligence delivered during the patient visit.
+      - name: AI Medical Coding
+        description: Generative-AI feature that supports medical coding workflows.
+      - name: Clinician Verification
+        description: Account access restricted to verified U.S. licensed healthcare professionals.
+      - name: Mobile and Web
+        description: Available as web and mobile applications, free for verified clinicians.
+  - type: UseCases
+    data:
+      - name: Point-of-Care Decision Support
+        description: Clinicians query OpenEvidence at the point of care for diagnostic, therapeutic,
+          and management questions.
+      - name: Medical Education
+        description: Use by medical residents and trainees for evidence lookup.
+      - name: Coding and Documentation
+        description: AI medical coding workflows for revenue-cycle support.
+  - type: Partnerships
+    data:
+      - name: New England Journal of Medicine
+        description: Official AI partner of NEJM for evidence integration.
+      - name: JAMA Network
+        description: Official AI partner of JAMA and JAMA Network specialty journals.
+      - name: NCCN
+        description: Official AI collaboration with the National Comprehensive Cancer Network,
+          including NCCN Guidelines Treatment Algorithms.
+      - name: Cochrane Library
+        description: Official AI partner of Cochrane Systematic Reviews.
+      - name: Mayo Clinic Platform Accelerate
+        description: Launch program through which OpenEvidence was incubated; Mayo Clinic is also an
+          investor.
+  - type: Investors
+    data:
+      - name: Series D
+        description: $250M Series D in January 2026 at a $12B valuation. Investors include Google
+          Ventures, Nvidia, Thrive Capital, and Mayo Clinic.
+  - type: Authentication
+    data:
+      - name: Clinician Account
+        description: Verified clinician sign-in via web and mobile apps; verification of state
+          license and NPI is required.
+      - name: No Public Developer API
+        description: OpenEvidence does not currently publish a public, self-service developer API.
+          Integration with EHRs and partner systems is handled directly. A docs.openevidence.com
+          portal exists but is gated behind authentication.
+  - type: Compliance
+    data:
+      - name: HIPAA
+        description: Operated as a HIPAA-aware clinical decision-support tool; not a substitute for
+          professional clinical judgment.
+      - name: Verified Professional Access
+        description: Access limited to credentialed U.S. healthcare professionals.
+  - type: BusinessModel
+    data:
+      - name: Free for Clinicians
+        description: The core product is free for verified U.S. clinicians.
+      - name: Pharma-Sponsored
+        description: Revenue is primarily generated through targeted pharmaceutical advertising
+          displayed during the loading of AI-generated answers.
+  - type: Adoption
+    data:
+      - name: 860,000+ Clinicians
+        description: Used by more than 860,000 verified U.S. clinicians as of 2026, covering over
+          40% of practicing U.S. physicians.
+      - name: 20M+ Monthly Queries
+        description: Monthly clinical consultations exceeded 20 million in January 2026.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
