@@ -2,7 +2,7 @@ aid: openevidence
 url: https://raw.githubusercontent.com/api-evangelist/openevidence/refs/heads/main/apis.yml
 name: OpenEvidence
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 description: OpenEvidence is a clinical decision-support search platform that uses generative AI
   grounded in peer-reviewed medical literature to answer clinical questions for verified clinicians.
   The product is free for U.S. licensed clinicians and is monetized through pharmaceutical
