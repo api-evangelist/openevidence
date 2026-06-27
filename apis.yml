@@ -24,7 +24,7 @@ apis: []
 common:
   - type: Website
     url: https://www.openevidence.com/
-  - type: SignUp
+  - type: Signup
     url: https://www.openevidence.com/signup
   - type: Login
     url: https://www.openevidence.com/signin
