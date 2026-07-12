@@ -22,6 +22,12 @@ modified: '2026-05-23'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: TrustCenter
+    url: security/openevidence-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/openevidence-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/openevidence-domain-security.yml
   - type: Website
     url: https://www.openevidence.com/
   - type: Signup
@@ -36,6 +42,8 @@ common:
     url: https://www.openevidence.com/careers
   - type: Contact
     url: https://www.openevidence.com/contact
+  - type: Blog
+    url: https://www.openevidence.com/announcements
   - type: GitHubOrganization
     url: https://github.com/openevidence
   - type: LinkedIn
