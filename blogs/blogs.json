@@ -1,0 +1,18 @@
+{
+  "repo": "openevidence",
+  "feeds": [
+    {
+      "source": "https://www.openevidence.com/announcements",
+      "feed_url": "https://www.openevidence.com/announcements",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.openevidence.com/contact",
+      "error": "HTTPError"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 25
+}
